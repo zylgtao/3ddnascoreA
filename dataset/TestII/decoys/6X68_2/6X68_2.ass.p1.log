@@ -1,0 +1,70 @@
+**********************************************************************************************
+                                                                                              
+                     NNNNNNNN        NNNNNNNN        SSSSSSSSSSSSSSS      PPPPPPPPPPPPPPPPP   
+                     N:::::::N       N::::::N      SS:::::::::::::::S     P::::::::::::::::P  
+                     N::::::::N      N::::::N     S:::::SSSSSS::::::S     P::::::PPPPPP:::::P 
+                     N:::::::::N     N::::::N     S:::::S     SSSSSSS     PP:::::P     P:::::P
+                     N::::::::::N    N::::::N     S:::::S                   P::::P     P:::::P
+                     N:::::::::::N   N::::::N     S:::::S                   P::::P     P:::::P
+                     N:::::::N::::N  N::::::N      S::::SSSS                P::::PPPPPP:::::P 
+                     N::::::N N::::N N::::::N       SS::::::SSSSS           P:::::::::::::PP  
+                     N::::::N  N::::N:::::::N         SSS::::::::SS         P::::PPPPPPPPP    
+                     N::::::N   N:::::::::::N            SSSSSS::::S        P::::P            
+                     N::::::N    N::::::::::N                 S:::::S       P::::P            
+                     N::::::N     N:::::::::N                 S:::::S       P::::P            
+                     N::::::N      N::::::::N     SSSSSSS     S:::::S     PP::::::PP          
+                     N::::::N       N:::::::N     S::::::SSSSSS:::::S     P::::::::P          
+                     N::::::N        N::::::N     S:::::::::::::::SS      P::::::::P          
+                     NNNNNNNN         NNNNNNN      SSSSSSSSSSSSSSS        PPPPPPPPPP          
+                                                                                              
+                           Nucleic Acid Prediction method developed by XiaoLab                
+**********************************************************************************************
+Start time: Tue Sep 26 16:31:42 2023
+
+NSP version: 2.0.1
+NSP library path: /home/zhangyi/3dRNA/rebuildmodule/zy/autoupdate/Lib/lib1
+# Reading sequence
+Seq:TTACGCAGACTATCTTTCTAGGGTTAACCCTAGAAAGATAGTCTGCGTAA
+# Reading secondary structure
+# Set disused pdbs...
+# Check input
+# Constructing 2D Structure Tree
+# Searching records...
+# Printing records...
+Records searching results:
+SSE(0x2160a90):
+  Loop TTACGTAA ..(()).. 1 2 3 4 47 48 49 50  (59)
+SSE(0x215aac0):
+  Helix ACGCAGACTATCTTTCTAGGGCCCTAGAAAGATAGTCTGCGT ((((((((((((((((((((())))))))))))))))))))) 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 (38)
+  Loop GGTTAACC ((....)) 22 23 24 25 26 27 28 29  (224)
+SST (Secondary Structure Tree) : 0x7ffcf4206b10
+SSE (0x2160a90) : 
+Helix:   
+Loop:  TTACGTAA ..(()).. 1 2 3 4 47 48 49 50 
+SSE (0x215aac0) : 
+Helix:  ACGCAGACTATCTTTCTAGGGCCCTAGAAAGATAGTCTGCGT ((((((((((((((((((((())))))))))))))))))))) 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48
+Loop:  GGTTAACC ((....)) 22 23 24 25 26 27 28 29 
+
+# SSE: 0x2160a90
+SSE (0x2160a90) : 
+Helix:   
+Loop:  TTACGTAA ..(()).. 1 2 3 4 47 48 49 50 
+# Select template of loop of SSE: 0x2160a90
+# Select template of helix of SSE: 0x2160a90
+# SSE: 0x215aac0
+SSE (0x215aac0) : 
+Helix:  ACGCAGACTATCTTTCTAGGGCCCTAGAAAGATAGTCTGCGT ((((((((((((((((((((())))))))))))))))))))) 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48
+Loop:  GGTTAACC ((....)) 22 23 24 25 26 27 28 29 
+# Select template of loop of SSE: 0x215aac0
+# Select template of helix of SSE: 0x215aac0
+# Select the best match!
+## Score of Templates: 61.2
+## Print Templates.
+0x2160a90 : 4YG4-1-loop-2 unknown
+0x215aac0 : 6X68_1-3-loop-1 6X68_2-1-helix-21
+## Position Templates.
+## Assemble Templates.
+## Transform.
+End time: Tue Sep 26 16:31:45 2023
+
+Elapsed seconds: 3.12191s

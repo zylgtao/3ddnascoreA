@@ -1,0 +1,86 @@
+**********************************************************************************************
+                                                                                              
+                     NNNNNNNN        NNNNNNNN        SSSSSSSSSSSSSSS      PPPPPPPPPPPPPPPPP   
+                     N:::::::N       N::::::N      SS:::::::::::::::S     P::::::::::::::::P  
+                     N::::::::N      N::::::N     S:::::SSSSSS::::::S     P::::::PPPPPP:::::P 
+                     N:::::::::N     N::::::N     S:::::S     SSSSSSS     PP:::::P     P:::::P
+                     N::::::::::N    N::::::N     S:::::S                   P::::P     P:::::P
+                     N:::::::::::N   N::::::N     S:::::S                   P::::P     P:::::P
+                     N:::::::N::::N  N::::::N      S::::SSSS                P::::PPPPPP:::::P 
+                     N::::::N N::::N N::::::N       SS::::::SSSSS           P:::::::::::::PP  
+                     N::::::N  N::::N:::::::N         SSS::::::::SS         P::::PPPPPPPPP    
+                     N::::::N   N:::::::::::N            SSSSSS::::S        P::::P            
+                     N::::::N    N::::::::::N                 S:::::S       P::::P            
+                     N::::::N     N:::::::::N                 S:::::S       P::::P            
+                     N::::::N      N::::::::N     SSSSSSS     S:::::S     PP::::::PP          
+                     N::::::N       N:::::::N     S::::::SSSSSS:::::S     P::::::::P          
+                     N::::::N        N::::::N     S:::::::::::::::SS      P::::::::P          
+                     NNNNNNNN         NNNNNNN      SSSSSSSSSSSSSSS        PPPPPPPPPP          
+                                                                                              
+                           Nucleic Acid Prediction method developed by XiaoLab                
+**********************************************************************************************
+Start time: Tue Sep 26 16:25:05 2023
+
+NSP version: 2.0.1
+NSP library path: /home/zhangyi/3dRNA/rebuildmodule/zy/autoupdate/Lib/lib1
+# Reading sequence
+Seq:CGTGCACCCGCTTGCGGCGACTTGTCGTTGTGCACG
+# Reading secondary structure
+# Set disused pdbs...
+# Check input
+# Constructing 2D Structure Tree
+# Searching records...
+# Printing records...
+Records searching results:
+SSE(0x1441230):
+  Helix CGTGCACGTGCACG ((((((())))))) 1 2 3 4 5 6 7 30 31 32 33 34 35 36 (304)
+  Loop ACCCGGCGCGTTGT (((())(())..)) 6 7 8 9 16 17 18 19 26 27 28 29 30 31  (1)
+SSE(0x143ccd0):
+  Helix CCGCGCGG (((()))) 8 9 10 11 14 15 16 17 (449)
+  Loop GCTTGC ((..)) 10 11 12 13 14 15  (420)
+SSE(0x1440700):
+  Helix CGACGTCG (((()))) 18 19 20 21 24 25 26 27 (449)
+  Loop ACTTGT ((..)) 20 21 22 23 24 25  (420)
+SST (Secondary Structure Tree) : 0x7fff7dcc9eb0
+SSE (0x1441230) : 
+Helix:  CGTGCACGTGCACG ((((((())))))) 1 2 3 4 5 6 7 30 31 32 33 34 35 36
+Loop:  ACCCGGCGCGTTGT (((())(())..)) 6 7 8 9 16 17 18 19 26 27 28 29 30 31 
+SSE (0x143ccd0) : 
+Helix:  CCGCGCGG (((()))) 8 9 10 11 14 15 16 17
+Loop:  GCTTGC ((..)) 10 11 12 13 14 15 
+SSE (0x1440700) : 
+Helix:  CGACGTCG (((()))) 18 19 20 21 24 25 26 27
+Loop:  ACTTGT ((..)) 20 21 22 23 24 25 
+
+# SSE: 0x1441230
+SSE (0x1441230) : 
+Helix:  CGTGCACGTGCACG ((((((())))))) 1 2 3 4 5 6 7 30 31 32 33 34 35 36
+Loop:  ACCCGGCGCGTTGT (((())(())..)) 6 7 8 9 16 17 18 19 26 27 28 29 30 31 
+# Select template of loop of SSE: 0x1441230
+# Select template of helix of SSE: 0x1441230
+# Select the best match!
+# SSE: 0x143ccd0
+SSE (0x143ccd0) : 
+Helix:  CCGCGCGG (((()))) 8 9 10 11 14 15 16 17
+Loop:  GCTTGC ((..)) 10 11 12 13 14 15 
+# Select template of loop of SSE: 0x143ccd0
+# Select template of helix of SSE: 0x143ccd0
+# Select the best match!
+# SSE: 0x1440700
+SSE (0x1440700) : 
+Helix:  CGACGTCG (((()))) 18 19 20 21 24 25 26 27
+Loop:  ACTTGT ((..)) 20 21 22 23 24 25 
+# Select template of loop of SSE: 0x1440700
+# Select template of helix of SSE: 0x1440700
+# Select the best match!
+## Score of Templates: 53.4
+## Print Templates.
+0x1441230 : 1SNJ-1-loop-3 1EZN-1-helix-7
+0x143ccd0 : 2N8A-3-loop-1 1EZN-2-helix-4
+0x1440700 : 6GDN_2-2-loop-1 1EZN-3-helix-4
+## Position Templates.
+## Assemble Templates.
+## Transform.
+End time: Tue Sep 26 16:25:08 2023
+
+Elapsed seconds: 2.53831s
